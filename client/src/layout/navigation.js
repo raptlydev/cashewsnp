@@ -36,6 +36,9 @@ class Navigation extends React.Component {
                     <Menu.Item key={`${PATH}about`}>
                         <Link to={`${PATH}about`}><span><Icon type="user" /><span>About</span></span></Link>
                     </Menu.Item>
+                    <Menu.Item key={`${PATH}analysis`}>
+                        <Link to={`${PATH}analysis`}><span><Icon type="user" /><span>Analysis</span></span></Link>
+                    </Menu.Item>
                     <Menu.Item key={`${PATH}database`}>
                         <Link to={`${PATH}database`}><span><Icon type="user" /><span>Database Search</span></span></Link>
                     </Menu.Item>

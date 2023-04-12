@@ -20,6 +20,10 @@ const PageStyle = styled.div`
     font-size: 18px;
     font-weight: 500;
 }
+
+.analysisTable td, .analysisTable th {
+    padding: 5px 20px;
+}
 `;
 
 export default PageStyle;

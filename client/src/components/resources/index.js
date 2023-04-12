@@ -13,39 +13,32 @@ class Resources extends Component {
     return (
       <PageStyle>
           <div className='container'>
-            <div className="row background">
-                  <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                    <div className='text-bg'>
-                      <h1>Recources</h1>
-                    </div>
-                  </div>
-                  {/* <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3">
-                      <div className="images_box">
-                        <figure><img src="../../assets/images/Picture1.png" /></figure>
-                      </div>
-                  </div> */}
-            </div>
             <div className="resources background">
               <div className="container">
                 <div className="about-history-content">
-
                   <div className="row">
-                    <div className="col-md-8 col-sm-12">
+                    <div className="col-md-12 col-sm-12">
                       <div className="single-about-history">
                         <div className="about-history-txt">
-                          <p><b>National Agricultural Bioinformatics Grid:</b> <a href="http://nabg.iasri.res.in/" target="_blank">http://nabg.iasri.res.in/</a></p>
-                          <p><b>Indian Agricultural Statistics Research Institute:</b> <a href="http://www.iasri.res.in/" target="_blank">http://www.iasri.res.in/</a></p>
-                          <p><b>National Center for Biotechnology Information:</b> <a href="http://www.ncbi.nlm.nih.gov/" target="_blank">http://www.ncbi.nlm.nih.gov/</a></p>
-                          <p><b>Indian Council for Agricultural Research:</b> <a href="http://www.icar.org.in/" target="_blank">http://www.icar.org.in/</a></p>
-                          <p><b>International Plant Genetic Resources Institute :</b><a href="http://www.bioversityinternational.org/" target="_blank">http://www.bioversityinternational.org/</a></p>
+                          <h2>Genomic Resource links</h2>
+                          <p>
+                            <b>Cashew draft genome (NCBI link; accession ID # PRJNA766521;</b>
+                            <a href="https://www.ncbi.nlm.nih.gov/genome/?term=cashew" target="_blank">https://www.ncbi.nlm.nih.gov/genome/?term=cashew</a>
+                          </p>
+                          <p>
+                            <b>Cashew transcriptome data (NCBI link; accession ID # PRJNA766798;</b>
+                            <a href="https://www.ncbi.nlm.nih.gov/bioproject/766798" target="_blank">https://www.ncbi.nlm.nih.gov/bioproject/766798</a>
+                          </p>
+                          <p>
+                            <b>Cashew Microsatellite database (CMDB):</b>
+                            <a href="" target="_blank">http://www.cashewmicrosatellitedatabase.com</a>
+                          </p>
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
       </PageStyle>
@@ -53,16 +46,4 @@ class Resources extends Component {
   }
 }
 
-const actionCreators = {
-};
-
-const mapStateToProps = (state) => {
-  return {
-    global: state.global,
-    notifications: state.notifications
-  };
-};
-
-// const WrappedDynamicRule = Form.create({ name: 'notifications' })(Notification);
-
-export default withRouter(connect(mapStateToProps, actionCreators)(Resources));
+export default Resources;

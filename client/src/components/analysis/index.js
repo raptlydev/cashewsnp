@@ -11,77 +11,155 @@ const Search = Input.Search;
 class Analysis extends Component {
   render() {
     return (
-      <PageStyle>
-          <div className='container'>
-              <div className="row background">
-                    <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                      <div className='text-bg'>
-                        <h1>Analysis</h1>
-                      </div>
-                    </div>
-              </div>
-			  <div className="about-history background">
-				<div className="about-history-content">
-					<div className="row">
-						<div className="col-md-6 col-sm-12">
+    	<PageStyle>
+        	<div className='container'>
+				<div className="about-history background">
+					<div className="about-history-content">
+						<div className="row">
+						<div className="col-md-12 col-sm-12">
 							<div className="about-history-txt">
-								<h2>In silico mining of SSRs from cashew draft genome</h2>
-								<p>
-									SSRs were extracted from 3268 scaffolds of cashew draft genome assembled from 30X OxforNanopore long reads and the 110X illumina reads using the MISA software. The primers were designed for the mined SSRs using Primer3 software. The motifs were classified into different classes based on repeat unit size, nucleotide composition and arrangement of repeat sequences. As an output of query, a list of SSRs with primer sequence, estimated PCR amplicon size and the estimated annealing temperature (Ta) can be downloaded.
-								</p>
-								<p>
-									Analysis of the composition of SSR repeat motifs in the identified SSRs showed that dinucleotide repeat motifs (59%) were dominant followed by trinucleotide repeat motifs (24.4%), complex SSRs repeats (11%), tetra-nucleotide repeat motifs (3.6%), pentanucleotide repeat motifs (1%) and hexanucleotide repeat motifs (0.8%). The frequency distribution of different repeat motifs in the draft genome of cashew is presented in Fig. 1A.
-									</p>
+								<h2>Summary statistics of genome allignment</h2>
+								<table className='analysisTable'>
+									<tr>
+										<th>Parameter</th>
+										<th>Value</th>
+									</tr>
+									<tr>
+										<td>Reference size</td>
+										<td>356,594,228</td>
+									</tr>
+									<tr>
+										<td>Number of reads</td>
+										<td>84,954,522</td>
+									</tr>
+									<tr>
+										<td>Mapped reads</td>
+										<td>82,544,177 / 97.16%</td>
+									</tr>
+									<tr>
+										<td>Unmapped reads</td>
+										<td>2,410,345 / 2.84%</td>
+									</tr>
+									<tr>
+										<td>Mapped paired reads</td>
+										<td>82,544,177 / 97.16%</td>
+									</tr>
+									<tr>
+										<td>Mapped reads, first in pair</td>
+										<td>41,273,162 / 48.58%</td>
+									</tr>
+									<tr>
+										<td>Mapped reads, second in pair</td>
+										<td>41,271,015 / 48.58%</td>
+									</tr>
+									<tr>
+										<td>Mapped reads, both in pair</td>
+										<td>82,245,544 / 96.81%</td>
+									</tr>
+									<tr>
+										<td>Mapped reads, singletons</td>
+										<td>298,633 / 0.35%</td>
+									</tr>
+									<tr>
+										<td>Secondary alignments</td>
+										<td>0</td>
+									</tr>
+									<tr>
+										<td>Supplementary alignments</td>
+										<td>1,194,030 / 1.41%</td>
+									</tr>
+									<tr>
+										<td>Read min/max/mean length</td>
+										<td>30 / 151 / 146.41</td>
+									</tr>
+									<tr>
+										<td>Duplicated reads (estimated)</td>
+										<td>47,941,833 / 56.43%</td>
+									</tr>
+									<tr>
+										<td>Duplication rate</td>
+										<td>63.17%</td>
+									</tr>
+									<tr>
+										<td>Clipped reads</td>
+										<td>9,865,584 / 11.61%</td>
+									</tr>
+								</table>
 							</div>
 						</div>
-
-						<div className="col-md-6 col-sm-12">
-							<div className="single-about-history">
+						</div>
+					</div>
+				</div>
+				<div className="about-history background">
+					<div className="about-history-content">
+						<div className="row">
+				<div className="col-md-12 col-sm-12">
+					<div className="about-history-txt">
+						<h2>ACGT Content of resequenced genome cv. Nethra Vaman</h2>
+						<table className='analysisTable'>
+							<tr>
+								<th>Parameter</th>
+								<th>Value</th>
+							</tr>
+							<tr>
+								<td>Number/percentage of A's</td>
+								<td>3,762,027,804 / 32.46%</td>
+							</tr>
+							<tr>
+								<td>Number/percentage of C's</td>
+								<td>2,044,348,351 / 17.64%</td>
+							</tr>
+							<tr>
+								<td>Number/percentage of T's</td>
+								<td>3,752,359,917 / 32.37%</td>
+							</tr>
+							<tr>
+								<td>Number/percentage of G's</td>
+								<td>2,032,357,244 / 17.53%</td>
+							</tr>
+							<tr>
+								<td>Number/percentage of N's</td>
+								<td>133,651 / 0%</td>
+							</tr>
+							<tr>
+								<td>GC Percentage</td>
+								<td>35.17%</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+						</div>
+					</div>
+				</div>
+				<div className="about-history background">
+					<div className="about-history-content">
+						<div className="row">
+							<div className="col-md-12 col-sm-12">
 								<div className="about-history-txt">
-									<div className="about-history-img">
-										<img src="assets/images/aboutPic/flowChart.jpg" alt="about" /> 
-											<p className='text-center pictureLegand'>In silico mining and development of SSR markers</p>
-									</div>
+									<h2>Statistics for the identified SNP types</h2>
+									
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className="row">
-						<div className="col-md-6 col-sm-12">
-							<div className="single-about-history">
+				</div>
+				<div className="about-history background">
+					<div className="about-history-content">
+						<div className="row">
+							<div className="col-md-12 col-sm-12">
 								<div className="about-history-txt">
-									<p>{`${"The repeat motifs of Class I type of SSRs (≥20 bp size) were 34.3 % while Class II types (≥12 and <20 bp size) repeat motifs were 65.7%. the nucleotide composition of SSRs showed that 84% composed of A and/or T nucleotides while 16% composed of G and/or C nucleotides. The most dominant repeat sequences were AT (23.54%) followed by TA (16.71%) and AAT (4%) (Fig. 1B)."}`}</p>
-									</div>
+									<h2>Graphical representation of genome sequence data</h2>
+									
 								</div>
 							</div>
-							<div className="col-md-6 col-sm-12">
-								<div className="about-history-txt">
-									<div className="single-about-history">
-									<div className="about-history-img">
-										<img src="assets/images/aboutPic/pieChart.jpg" alt="about" /> 
-											<p className='text-center pictureLegand'>Composition of SSRs in cashew genome</p>
-									</div>
-									</div>
-								</div>
-							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-	</div>
-      </PageStyle>
+    	</PageStyle>
     );
   }
 }
 
-const actionCreators = {
-};
 
-const mapStateToProps = (state) => {
-  return {
-    global: state.global,
-    notifications: state.notifications
-  };
-};
-
-
-export default withRouter(connect(mapStateToProps, actionCreators)(Analysis));
+export default Analysis;

@@ -83,7 +83,7 @@ class Landing extends Component {
               <div className="row background about-history-txt blueCopy">
                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                   <p>
-                    <b>PPlease cite this database as:</b>
+                    <b>Please cite this database as:</b>
                     <p>Savadi S, Adiga JD., Muralidhara B.M, Shamsudheen M., Eradasappa E., Manjunatha K.,  and Anabi R (2022). Cashew Single Nucleotide Polymorphisms (SNP) database (CSNPDb)……….
                     </p>
                   </p>
