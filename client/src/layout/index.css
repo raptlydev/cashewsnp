@@ -1,0 +1,44 @@
+.breadcrumb .ant-breadcrumb {
+    margin-left: 18px;
+    padding: 8px;
+}
+
+.rowstyle .ant-row {
+    background-color: white;
+}
+
+.ant-layout-header {
+    border-bottom: 1px solid lightgray;
+}
+
+.ant-layout-header {
+    height: 67px;
+}
+
+.ant-modal-header {
+	background-color: #1890ff !important;
+}
+
+.ant-modal-title {
+	color: rgba(255,255,255,1) !important;
+}
+
+.iconLeft {
+    display: inline-block;
+    width: 40px;
+    margin: 0 20px 0 0;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.iconRight {
+    display: inline-block;
+    width: 100px;
+    margin: 0 0 0 20px;
+    vertical-align: top;
+    overflow: auto;
+}
+
+footer{
+    color: #0a0a5c !important;
+}
