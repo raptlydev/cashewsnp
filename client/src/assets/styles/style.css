@@ -3102,9 +3102,9 @@ a:active.learn-btn{
 }/* contact-adress */
 
 /*hm-foot-icon*/
-.contact-icon {
+/* .contact-icon {
     margin-top:19px;
-}
+} */
 .contact-icon ul li{float:left;}
 .contact-icon ul li>a {
 	color: #565DFA;

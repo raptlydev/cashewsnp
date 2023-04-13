@@ -137,8 +137,17 @@ class Analysis extends Component {
 							<div className="col-md-12 col-sm-12">
 								<div className="about-history-txt">
 									<h2>Statistics for the identified SNP types</h2>
-									
 								</div>
+							</div>
+							<div className="col-md-6 col-sm-12">
+							<div className="single-about-history">
+								<div className="about-history-txt">
+									<div className="about-history-img">
+										<img src="assets/images/staticPages/Picture2.jpg" alt="about" /> 
+											<p className='text-center pictureLegand'>Fig. 1 The number of different types of transitions (Ts) and transversions (Tv) in the genome-wide SNPs identified</p>
+									</div>
+								</div>
+							</div>
 							</div>
 						</div>
 					</div>
@@ -150,6 +159,33 @@ class Analysis extends Component {
 								<div className="about-history-txt">
 									<h2>Graphical representation of genome sequence data</h2>
 									
+								</div>
+							</div>
+							<div className="col-md-4 col-sm-12">
+								<div className="single-about-history">
+									<div className="about-history-txt">
+										<div className="about-history-img">
+											<img src="assets/images/staticPages/Picture3.png" alt="about" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 col-sm-12">
+								<div className="single-about-history">
+									<div className="about-history-txt">
+										<div className="about-history-img">
+											<img src="assets/images/staticPages/Picture4.png" alt="about" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 col-sm-12">
+								<div className="single-about-history">
+									<div className="about-history-txt">
+										<div className="about-history-img">
+											<img src="assets/images/staticPages/Picture5.png" alt="about" />
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

@@ -33,11 +33,15 @@ class ContactUs extends Component {
 											<div className="contact-office-address">
 												<h3>contact info</h3>
 												<h5><b>Dr. Siddanna Savadi</b></h5>
-												<p>Scientist (Biotechnology) & Principal investigator (PI)</p>
-												<p>Centre of Excellence for Biotechnology</p>
-												<p>ICAR-Directorate of Cashew Research, Puttur-574</p>
-												<p>202, Karnataka, INDIA</p>
+												<p>Scientist (Biotechnology)</p>
+												<p><b>Centre of Excellence for Biotechnology</b></p>
+												<p>ICAR-Directorate of Cashew Research, Puttur-574202</p>
+												<p>Karnataka, INDIA</p>
 												<div className="contact-online-address">
+													<div className="single-online-address">
+														<i className="fa fa-envelope-o"></i>
+														<span>Siddanna.Savadi@icar.gov.in</span>
+													</div>
 													<div className="single-online-address">
 														<i className="fa fa-phone"></i>
 														+91-8251-231530 (Office)
@@ -46,10 +50,7 @@ class ContactUs extends Component {
 													<i className="fa fa-phone" aria-hidden="true"></i>
 														+91-8251-234350 (Fax)
 													</div>
-													<div className="single-online-address">
-														<i className="fa fa-envelope-o"></i>
-														<span>Siddanna.Savadi@icar.gov.in</span>
-													</div>
+													
 												</div>
 											</div>
 											<div className="contact-office-address">
@@ -76,73 +77,141 @@ class ContactUs extends Component {
 												</div>
 						<div className="service-content-one">
 							<div className="row">
-							<div className="col-sm-4 col-xs-12">
-								<div className="service-single text-center contactUsImgContainer">
-									<div className="service-img">
-									<img src="assets/images/contactUs/1.jpg" alt="image" />
-									</div>
-									<div className="service-txt">
-										<h2 style={{marginBottom: "0", padding:"0"}}>
-											<a href="https://cashew.icar.gov.in/wp-content/uploads/2017/07/siddanna-savadi.pdf">Dr. Siddanna Savadi </a>
-										</h2>
-										<p className='contactDesignation'>Team lead, Scientist</p>
-										<p>(Biotechnology)</p>
-										<a href="https://cashew.icar.gov.in/wp-content/uploads/2017/07/siddanna-savadi.pdf" className="service-btn">
-											Learn more
-										</a>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-4 col-xs-12">
-								<div className="service-single text-center contactUsImgContainer">
-									<div className="service-img">
-										<img src="assets/images/contactUs/2.jpg" alt="image" />
-									</div>
-									<div className="service-txt">
-										<h2 style={{marginBottom: "0", padding:"0"}}>
-											<a href="https://www.iihr.res.in/bm-muralidhara">Dr. Muralidhara B.M.</a>
-										</h2>
-										<p className='contactDesignation'>Scientist</p>
-										<p>(Fruit Science)</p>
-										<a href="https://www.iihr.res.in/bm-muralidhara" className="service-btn">
-											Learn more
-										</a>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+										<img src="assets/images/contactUs/1.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2017/07/siddanna-savadi.pdf">Dr. Siddanna Savadi </a>
+											</h2>
+											<p className='contactDesignation'>Team Leader, Scientist</p>
+											<p>(Biotechnology)</p>
+											<a href="https://cashew.icar.gov.in/wp-content/uploads/2017/07/siddanna-savadi.pdf" className="service-btn">
+												Learn more
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="col-sm-4 col-xs-12">
-								<div className="service-single text-center contactUsImgContainer">
-									<div className="service-img">
-									<img src="assets/images/contactUs/3.jpg" alt="image" />
-									</div>
-									<div className="service-txt">
-										<h2 style={{marginBottom: "0", padding:"0"}}>
-											<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/03/Shamsudheen-Biodata-1.pdf">Dr. Shamsudheen M. </a>
-										</h2>
-										<p className='contactDesignation'>Senior Scientist</p>
-										<p>(Soil Science)</p>
-										<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/03/Shamsudheen-Biodata-1.pdf" className="service-btn">
-											Learn more
-										</a>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+											<img src="assets/images/contactUs/2.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://www.iihr.res.in/bm-muralidhara">Dr. Muralidhara B.M.</a>
+											</h2>
+											<p className='contactDesignation'>Scientist</p>
+											<p>(Fruit Science)</p>
+											<a href="https://www.iihr.res.in/bm-muralidhara" className="service-btn">
+												Learn more
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+										<img src="assets/images/contactUs/3.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/03/Shamsudheen-Biodata-1.pdf">Dr. Shamsudheen M. </a>
+											</h2>
+											<p className='contactDesignation'>Senior Scientist</p>
+											<p>(Soil Science)</p>
+											<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/03/Shamsudheen-Biodata-1.pdf" className="service-btn">
+												Learn more
+											</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div className="service-content-two">
 							<div className="row">
-							<div className="col-sm-4 col-xs-12">
+								<div className="col-sm-4 col-xs-12">
 									<div className="service-single text-center contactUsImgContainer">
 										<div className="service-img">
 										<img src="assets/images/contactUs/6.jpg" alt="image" />
 										</div>
 										<div className="service-txt">
 											<h2 style={{marginBottom: "0", padding:"0"}}>
-												<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf">Dr. Manjunath K.</a>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf">Dr. Manjunatha K.</a>
 											</h2>
 											<p className='contactDesignation'>Scientist</p>
 											<p>(FM&P)</p>
 											<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf" className="service-btn">
+												Learn more
+											</a>
+										</div>
+									</div>
+								</div>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+										<img src="assets/images/contact/Contact2.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf">Dr. Eradasappa E.</a>
+											</h2>
+											<p className='contactDesignation'>Scientist</p>
+											<p>(Plant Breeding)</p>
+											<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf" className="service-btn">
+												Learn more
+											</a>
+										</div>
+									</div>
+								</div>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+										<img src="assets/images/contact/Contact1.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf">Dr. Rajashekara H.</a>
+											</h2>
+											<p className='contactDesignation'>Scientist</p>
+											<p>(Plant Pathology)</p>
+											<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/04/Manjunatha-K.pdf" className="service-btn">
+												Learn more
+											</a>
+										</div>
+									</div>
+								</div>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+										<img src="assets/images/contactUs/mahesh.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/02/Manjesh-G.N..pdf">Dr. Manjesh GN.</a>
+											</h2>
+											<p className='contactDesignation'>Scientist</p>
+											<p>(SPM & AM)</p>
+											<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/02/Manjesh-G.N..pdf" className="service-btn">
+												Learn more
+											</a>
+										</div>
+									</div>
+								</div>
+								<div className="col-sm-4 col-xs-12">
+									<div className="service-single text-center contactUsImgContainer">
+										<div className="service-img">
+										<img src="assets/images/contact/Contact10.jpg" alt="image" />
+										</div>
+										<div className="service-txt">
+											<h2 style={{marginBottom: "0", padding:"0"}}>
+												<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/02/Manjesh-G.N..pdf">Dr. Babli Mog</a>
+											</h2>
+											<p className='contactDesignation'>Scientist</p>
+											<p>(Plant Physiology)</p>
+											<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/02/Manjesh-G.N..pdf" className="service-btn">
 												Learn more
 											</a>
 										</div>
@@ -155,70 +224,16 @@ class ContactUs extends Component {
 											</div>
 											<div className="service-txt">
 												<h2 style={{marginBottom: "0", padding:"0"}}>
-													<a href="https://cashew.icar.gov.in/wp-content/uploads/2016/08/Adiga.pdf">Dr. J. D. Adiga </a>
+													<a href="https://cashew.icar.gov.in/wp-content/uploads/2016/08/Adiga.pdf">Dr. J D Adiga </a>
 												</h2>
-												<p className='contactDesignation'>Principal Scientist</p>
-												<p>(Horticulture)</p>
+												<p className='contactDesignation'>Director</p>
+												{/* <p>(Horticulture)</p> */}
 												<a href="https://cashew.icar.gov.in/wp-content/uploads/2016/08/Adiga.pdf" className="service-btn">
 													Learn more
 												</a>
 											</div>
 										</div>
-									</div>
-								<div className="col-sm-4 col-xs-12">
-									<div className="service-single text-center contactUsImgContainer">
-										<div className="service-img">
-										<img src="assets/images/contactUs/4.jpg" alt="image" />
-										</div>
-										<div className="service-txt">
-											<h2 style={{marginBottom: "0", padding:"0"}}>
-												<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/08/V.-Thondaiman.pdf">Dr. Thondaiman V.</a>
-											</h2>
-											<p className='contactDesignation'>Scientist</p>
-											<p>(SPM&AP)</p>
-											<a href="https://cashew.icar.gov.in/wp-content/uploads/2020/08/V.-Thondaiman.pdf" className="service-btn">
-												Learn more
-											</a>
-										</div>
-									</div>
 								</div>
-								
-								<div className="col-sm-4 col-xs-12">
-									<div className="service-single text-center contactUsImgContainer">
-										<div className="service-img">
-										<img src="assets/images/contactUs/mahesh.jpg" alt="image" />
-										</div>
-										<div className="service-txt">
-											<h2 style={{marginBottom: "0", padding:"0"}}>
-												<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/02/Manjesh-G.N..pdf">Dr. Manjesh G. N.</a>
-											</h2>
-											<p className='contactDesignation'>Scientist</p>
-											<p>(SPM & AP)</p>
-											<a href="https://cashew.icar.gov.in/wp-content/uploads/2021/02/Manjesh-G.N..pdf" className="service-btn">
-												Learn more
-											</a>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-sm-4 col-xs-12">
-									<div className="service-single text-center contactUsImgContainer">
-										<div className="service-img">
-										<img src="assets/images/contactUs/7.jpg" alt="image" />
-										</div>
-										<div className="service-txt">
-											<h2 style={{marginBottom: "0", padding:"0"}}>
-												<a href="https://cashew.icar.gov.in/wp-content/uploads/2017/07/tnrp.pdf">Dr. T N Raviprasad</a>
-											</h2>
-											<p className='contactDesignation'>Director</p>
-											<p>(Acting)</p>
-											<a href="https://cashew.icar.gov.in/wp-content/uploads/2017/07/tnrp.pdf" className="service-btn">
-												Learn more
-											</a>
-										</div>
-									</div>
-								</div>
-
 								<div className="col-sm-4 col-xs-12">
 									<div className="service-single text-center contactUsImgContainer">
 										<div className="service-img">

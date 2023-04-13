@@ -48,6 +48,15 @@ class AboutUs extends Component {
 								</div>
 							</div>
 						</div>
+						<div className="col-md-6 col-sm-12">
+								<div className="single-about-history">
+									<div className="about-history-txt">
+										<div className="about-history-img">
+											<img src="assets/images/staticPages/Picture1.png" alt="about" />
+										</div>
+									</div>
+								</div>
+							</div>
 					</div>
 					<div  className="row">
 						<div className="col-md-12 col-sm-12">
