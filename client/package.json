@@ -64,9 +64,9 @@
     "not ie <= 9",
     "not op_mini all"
   ],
-  "engines" : { 
-    "npm" : "16.14.0",
-    "node" : "8.3.0"
+  "engines" : {
+    "npm" : "^16.14.0",
+    "node" : "^8.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
