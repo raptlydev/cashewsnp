@@ -54,7 +54,7 @@
     "staging": "NODE_ENV=production NODE_MODE=staging webpack --max_old_space_size=8192 --mode production && node generate-build-id-staging.js",
     "development": "NODE_ENV=production NODE_MODE=development webpack --max_old_space_size=8192 --mode production && node generate-build-id-development.js",
     "production": "NODE_ENV=production NODE_MODE=production webpack --max_old_space_size=8192 --mode production && node generate-build-id-production.js",
-    // "heroku-prebuild": "npm install --dev"
+    "heroku-prebuild": "npm install"
   },
   "eslintConfig": {
     "extends": "react-app"
