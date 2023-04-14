@@ -50,7 +50,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start": "NODE_ENV=production NODE_MODE=production && webpack-dev-server --max_old_space_size=8192 --mode production --hot --progress --open",
+    "start": "NODE_ENV=local NODE_MODE=local && webpack-dev-server --max_old_space_size=8192 --mode local --hot --progress --open",
     "build": "NODE_ENV=development NODE_MODE=local && webpack --max_old_space_size=8192 --mode development",
     "qa": "NODE_ENV=production NODE_MODE=qa webpack --max_old_space_size=8192 --mode production && node generate-build-id-qa.js",
     "staging": "NODE_ENV=production NODE_MODE=staging webpack --max_old_space_size=8192 --mode production && node generate-build-id-staging.js",
