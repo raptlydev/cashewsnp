@@ -45,7 +45,9 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "regenerator-runtime": "^0.13.2",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "webpack-dev-server": "^3.11.3",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "start": "NODE_ENV=production NODE_MODE=production && webpack-dev-server --max_old_space_size=8192 --mode production --hot --progress --open",
