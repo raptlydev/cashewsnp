@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import { Link, withRouter } from 'react-router-dom';
 import { Form, Row, Col, Input, Button, Badge, Table, Select, Popover, Tag, Card } from 'antd';
-// import { withRouter } from 'react-router-dom';
 import PageStyle from './pageStyle';
 
 const PATH = process.env.REACT_APP_LINK_TO_PATH;
@@ -74,4 +72,4 @@ const mapStateToProps = (state) => {
 
 // const WrappedDynamicRule = Form.create({ name: 'notifications' })(Notification);
 
-export default withRouter(connect(mapStateToProps, actionCreators)(Navigation));
+export default connect(mapStateToProps, actionCreators)(Navigation);
