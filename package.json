@@ -54,7 +54,7 @@
     "staging": "NODE_ENV=production NODE_MODE=staging webpack --max_old_space_size=8192 --mode production && node generate-build-id-staging.js",
     "development": "NODE_ENV=production NODE_MODE=development webpack --max_old_space_size=8192 --mode production && node generate-build-id-development.js",
     "production": "NODE_ENV=production NODE_MODE=production webpack --max_old_space_size=8192 --mode production && node generate-build-id-production.js",
-    "heroku-prebuild": "npm install"
+    "heroku-prebuild": "npm install --dev"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -65,10 +65,6 @@
     "not ie <= 9",
     "not op_mini all"
   ],
-  "engines": {
-    "node": "^16.14.0",
-    "npm": "^8.3.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
