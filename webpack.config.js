@@ -23,7 +23,7 @@ const { CheckerPlugin } = require('awesome-typescript-loader');
 
 const isProduction = process.env.NODE_ENV === 'production';
 const buildMode = process.env.NODE_MODE;
-
+console.log(process.env.NODE_ENV, "Processsssssssss")
 const APP_DIR = path.resolve(__dirname, './src');
 const MONACO_DIR = path.resolve(__dirname, './node_modules/monaco-editor');
 
