@@ -14,6 +14,7 @@
     "core-js": "^3.1.3",
     "file-saver": "^2.0.2",
     "history": "^4.9.0",
+    "http-server": "^14.1.1",
     "immutability-helper": "^3.0.1",
     "jquery-ui": "^1.12.1",
     "less": "^3.9.0",
@@ -49,14 +50,15 @@
     "webpack-dev-server": "^3.11.3"
   },
   "scripts": {
-    "start": "NODE_ENV=production NODE_MODE=production && webpack-dev-server --max_old_space_size=8192 --mode production --hot --progress --open",
+    "start": "npm run start-webpack",
     "build": "npm run build-webpack",
     "qa": "NODE_ENV=production NODE_MODE=qa webpack --max_old_space_size=8192 --mode production && node generate-build-id-qa.js",
     "staging": "NODE_ENV=production NODE_MODE=staging webpack --max_old_space_size=8192 --mode production && node generate-build-id-staging.js",
     "development": "NODE_ENV=production NODE_MODE=development webpack --max_old_space_size=8192 --mode production && node generate-build-id-development.js",
     "production": "NODE_ENV=production NODE_MODE=production webpack --max_old_space_size=8192 --mode production && node generate-build-id-production.js",
     "heroku-prebuild": "npm install --dev",
-    "build-webpack": "NODE_ENV=production NODE_MODE=production webpack --mode production"
+    "build-webpack": "NODE_ENV=production NODE_MODE=production webpack --mode production",
+    "start-webpack": "http-server ./build"
   },
   "eslintConfig": {
     "extends": "react-app"
