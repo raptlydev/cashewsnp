@@ -15,10 +15,10 @@ app.use(cors());
 
 app.use('/api', postRoutes);
 
-// app.use(express.static('build'));
-// app.get('*', (req,res)=>{
-//     req.sendFile(path.resolve(__dirname, 'build', 'index.html'))
-// });
+app.use(express.static('build'));
+app.get('*', (req,res)=>{
+    req.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+});
 
 app.get('/', (req,res)=>{
     res.send("Hello to the test projects")
