@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Row, Col, Select, Button, Card, Input, InputNumber } from 'antd';
+import { Row, Col, Select, Button, Card, Input, InputNumber, Tooltip, Icon } from 'antd';
 import PageStyle from './pageStyle';
 import { getCashewSnpData, updateDatabaseData } from "../../redux/actions/database";
 import { Form } from '@ant-design/compatible';
@@ -127,9 +127,15 @@ class DatabaseAdvanceFilter extends Component {
 								</Form.Item>
 							</Col>
 							<Col xxl={6} xl={6} lg={6} md={6} sm={24} xs={24}>
-								<Form.Item label={"Position"}>
+								<Form.Item label={(
+									<span>Position&nbsp;
+									<Tooltip title="Position number should be between 123 and 28678615">
+										<Icon type="question-circle-o" />
+									</Tooltip>
+									</span>
+									)}>
 									{getFieldDecorator('positionIds', {})(
-										<InputNumber style={{width: '100%'}} placeholder='Position Number' min={123} max={28678615} onChange={()=> this.props.form.validateFields()} /> 
+										<InputNumber style={{width: '100%'}} placeholder='Position Number' min={123} max={28678615} /> 
 									)}
 								</Form.Item>
 							</Col>

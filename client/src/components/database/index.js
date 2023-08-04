@@ -258,13 +258,13 @@ class Database extends React.Component {
           <Spin spinning={this.props.database.loadingData}>
             <DatabaseAdvanceFilter />
           </Spin>
-          <div classname="printDownload" style={{ margin: '20px', float: 'right', position: 'relative', zIndex: '999' }}>
+              <div classname="printDownload" style={{ margin: '20px', float: 'right', position: 'relative', zIndex: '999' }}>
                 <ReactToPrint
                     trigger={() => {
                       return <Icon type="printer" theme="twoTone" style={{ fontSize: '20px', cursor: 'pointer' }} />;
                     }}
                     content={() => this.inSilicoRef}
-                  /> | <span onClick={this.handleDownload}><Icon type="download"  style={{ fontSize: '20px', cursor: 'pointer' }} /></span>
+                  />
               </div>
               <Table columns={databaseColumns} pagination={false} dataSource={cashewSnpData} rowKey="id" scroll={{ x: true}} ref={el => (this.inSilicoRef = el)} size="small" loading={tableDataLoading}/>
               {cashewSnpData && cashewSnpData.length > 0 && <Pagination total={totalRecords} current={pageNo} onChange={this.handlePagination} showQuickJumper={true} showSizeChanger={true} onShowSizeChange={this.handlePaginationSizeChange} pageSizeOptions={['10', '50', '100', '500']} />}
